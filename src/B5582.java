@@ -7,7 +7,7 @@ public class B5582 {
 		
 		String a = sc.nextLine();
 		String b = sc.nextLine();
-		int[][] m = new int [a.length()][b.length()]; // dp
+		int[][] m = new int [a.length()][b.length()];
 		int result = 0; // °á°ú°ª
 		
 		for(int i = 0; i < a.length(); i++) {
